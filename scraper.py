@@ -23,3 +23,5 @@ for i in range(len(cardName)):
     
 for i in range(len(gpuName)):
         print(f'Gpu Description: {gpuName[i]}\nPrice: {strong[i]}\n')
+        
+print('testing')
