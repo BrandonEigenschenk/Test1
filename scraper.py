@@ -22,6 +22,4 @@ for i in range(len(cardName)):
     gpuName.append(name.text.strip())
     
 for i in range(len(gpuName)):
-        print(f'Gpu Description: {gpuName[i]}\nPrice: {strong[i]}\n')
-        
-print('testing')
+        print(f'Gpu Description: {gpuName[i]}\nPrice: ${strong[i]}\n')
